@@ -61,7 +61,7 @@
     margin: auto 25%;
 }
 
-#container {
+.container {
     display: flex;
     justify-content: space-around;
     font-family: sans-serif;
