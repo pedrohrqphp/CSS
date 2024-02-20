@@ -7,12 +7,12 @@
 
 #container-cima {
     display: flex;
+    justify-content: center;
     align-items: stretch;
 
     padding: 5% 5%;
     margin: 0 auto;
     height: 300px;
-    width: 495px;
 }
 
 .formas {
@@ -20,32 +20,36 @@
     font-family: sans-serif;
     font-size: 12px;
     padding: 50px 20px;
-    width: 91px;
+}
+
+#pri {
+    position: relative;
+    left: 30px;
 }
 
 #seg {
     position: relative;
-    right: 10px;
+    left: 20px;
 }
 
 #ter {
     position: relative;
-    right: 20px;
+    left: 5px;
 }
 
 #qua {
     position: relative;
-    right: 30px;
+    right: 5px;
 }
 
 #qui {
     position: relative;
-    right: 40px;
+    right: 20px;
 }
 
 #sex {
     position: relative;
-    right: 50px;
+    right: 30px;
 }
 
 /*CÓDIGO DAS CORES*/
@@ -54,14 +58,14 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 10px;
-    margin: auto;
-    max-width: 600px;    
+    margin: auto 25%;
 }
 
 #container {
     display: flex;
     justify-content: space-around;
     font-family: sans-serif;
+    column-gap: 30px;
 }
 
 .cores {
