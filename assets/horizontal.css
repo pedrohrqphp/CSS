@@ -11,14 +11,14 @@
 }
 
 .formas {
-    border-radius: 70px;
+    border-radius: 100px;
     margin: auto;
     width: 30%;
     min-width: 300px;
-    height: 120px;
+    max-width: 500px    ;
+    height: 19lvh;
     font-family: sans-serif;
     font-size: 12px;
-    padding-top: 10px;
     position: absolute;
     box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.3), -10px 0px 50px rgba(0, 0, 0, 0.3);
 }
@@ -48,5 +48,7 @@
 }
 
 b {
-    margin: 60px;
+    position: absolute;
+    margin: 10px 90px;
+    font-size: 17px;
 }
