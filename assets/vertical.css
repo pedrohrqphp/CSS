@@ -12,44 +12,45 @@
 
     padding: 5% 5%;
     margin: 0 auto;
-    height: 300px;
+    height: 55lvh;
 }
 
 .formas {
-    border-radius: 100px;
+    border-radius: 70px;
     font-family: sans-serif;
-    font-size: 12px;
-    padding: 50px 20px;
+    font-size: 17px;
+    padding: 70px 20px;
+    width: 6lvw;
 }
 
 #pri {
     position: relative;
-    left: 30px;
+    left: 82px;
 }
 
 #seg {
     position: relative;
-    left: 20px;
+    left: 50px;
 }
 
 #ter {
     position: relative;
-    left: 5px;
+    left: 18px;
 }
 
 #qua {
     position: relative;
-    right: 5px;
+    right: 18px;
 }
 
 #qui {
     position: relative;
-    right: 20px;
+    right: 50px;
 }
 
 #sex {
     position: relative;
-    right: 30px;
+    right: 82px;
 }
 
 /*CÓDIGO DAS CORES*/
@@ -66,10 +67,12 @@
     justify-content: space-around;
     font-family: sans-serif;
     column-gap: 30px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .cores {
-    height: 50px;
-    width: 50px;
+    height: 6lvw;
+    width: 6lvw;
     border-radius: 100%;
 }

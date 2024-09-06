@@ -1,3 +1,4 @@
+/*GERAL*/
 * {
     margin: 0;
 }
@@ -6,13 +7,13 @@ body {
     background-color: whitesmoke;
 }
 
+/*SEPARADORES*/
+
 h1 {
     color:#444;
     text-align: center;
     margin-top: 20px;
 }
-
-
 
 h2 {
     color:#444;
@@ -23,9 +24,6 @@ h2 {
     border-radius: 20px 20px 0 0;
 }
 
-h3 {
-    padding: 10px 0;
-}
 .container {
     display: flex;
 
@@ -38,21 +36,7 @@ h3 {
     border-radius: 0 20px 20px;
 }
 
-.cor {
-    height: 150px;
-    width: 150px;
-    border-radius: 10px 10px 0 0;
-    background-color: #000;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
+/*CORES*/
 .link {
     display: flex;
 
@@ -63,4 +47,23 @@ a:visited {
     border-radius: 10px 10px 10px 10px ;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cor {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+    background-color: #000;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
